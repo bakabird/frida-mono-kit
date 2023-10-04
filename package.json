@@ -1,12 +1,12 @@
 {
-  "name": "frida-mono-api",
+  "name": "frida-mono-kit",
   "description": "All the mono c exports, ready to be used in frida!",
-  "version": "0.0.5",
-  "author": "FreehuntX",
-  "homepage": "https://github.com/freehuntx/frida-mono-api#readme",
+  "version": "0.0.2",
+  "author": "bakabird",
+  "homepage": "https://github.com/bakabird/frida-mono-kit#readme",
   "repository": {
     "type": "git",
-	  "url": "https://github.com/freehuntx/frida-mono-api"
+    "url": "git+https://github.com/bakabird/frida-mono-kit.git"
   },
   "license": "MIT",
   "main": "src/index.js",

@@ -1,11 +1,11 @@
-Note: Im currently reworking https://github.com/freehuntx/frida-mono  
-The new version will include everything from this repo & more!  
-Current dev branch: https://github.com/freehuntx/frida-mono/tree/feature/v1
----
+# frida-mono-kit
 
-**This project is in a poc state. Please dont use it in production. Rather use it as inspiration :) Im open for every contribution!**
+[NPM](https://www.npmjs.com/package/frida-mono-kit) | [GIT](https://github.com/bakabird/frida-mono-kit#readme)
 
-# frida-mono-api
+
+> This lib develop base on https://github.com/freehuntx/frida-mono-api
+
+
 This module is meant to be used inside of a frida module.  
 An easy injector can be found here: [frida-inject](https://github.com/freehuntx/frida-inject)  
   
@@ -19,14 +19,14 @@ They have some more properties for easy use. See: [frida-ex-nativefunction](http
 ## Example
 ### Using helper
 ```javascript
-import { MonoApiHelper } from 'frida-mono-api'
+import { MonoApiHelper } from 'frida-mono-kit'
 
 MonoApiHelper.AssemblyForeach(assembly => console.log(assembly))
 ```
 
 ### Using api
 ```javascript
-import { MonoApi } from 'frida-mono-api'
+import { MonoApi } from 'frida-mono-kit'
 
 const domain = MonoApi.mono_domain_get()
 ```
