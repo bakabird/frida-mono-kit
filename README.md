@@ -30,3 +30,10 @@ import { MonoApi } from 'frida-mono-kit'
 
 const domain = MonoApi.mono_domain_get()
 ```
+
+
+# About
+
+1. [Pure C # implementation code injection, starting from the modification of U3D games](https://zhuanlan.zhihu.com/p/69043387): contain some easy to understand introduction for mono-api
+2. [Mono-Api-Embedding](http://docs.go-mono.com/?link=xhtml%3adeploy%2fmono-api-embedding.html): what exactly this repo focus on
+3. [frida:javascript-api](https://frida.re/docs/javascript-api/)
